@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+main{
+   
+    width: 416px;
+    padding: 8px;
+    margin: 207px auto 148px auto;
+    
+   
+    
+    
+    
+}
+body{
+    background-color: #2C3A46;
+}
+P{
+    color: #78B8EF;
+}
+h1{
+    color: #78B8EF;
+    text-align: center;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: rgb(42, 0, 139);
+}

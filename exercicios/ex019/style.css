@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: #49BDF5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #325EA8;
+}
+h1#p{
+    color: white;
+    background-color: #284B86;
+
+    text-align: center;
+}
+h2{
+    color: #3D71CA;
+}
