@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,9 +10,17 @@
 
 
 
+
+:root {
+    --fonte01: 'Oswald' , sans-serif;
+    --fonte02: 'Bebas Neue' , sans-serif;
+}
+
+
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte01);
 }
 
 header{
@@ -21,10 +32,15 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 3.6em;
+    
 }
 
 header > p {
     padding-bottom: 50px;
+    font-family: var(--fonte01);
+   
 }
 
 header a, footer a{
@@ -42,6 +58,35 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte01);
+    font-size: 2.5vw;
+}
+
+.titulos{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(46, 45, 45));
+    width: 100%;
+    padding-left: 30px;
+    margin-left: -31px;
+    padding: 20px;
+    color: white;
+}
+
+section > p {
+    padding-bottom: 2em;
+    
+}
+
+section#imgmoto{
+    background-image: url(../imagens/moto.jpg);
+    background-position: left center;
+    
+}
+
+section#imgcarro {
+    background-image: url(../imagens/carro.jpg);
+    background-position: center center;
+   
 }
 
 .normal{
@@ -52,16 +97,30 @@ section{
 .imagem{
      background-color: rgba(22, 22, 22, 0.712);
      color: white;
+     box-shadow: inset 1px 1px 8px 2px #000000a3;
+     background-size: cover;
+     background-attachment: fixed;
 }
 
 .imagem > p{
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.281);
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+
+td{
+    padding: 10px;
+}
+
+td.tdcarro{
+    
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 22px;
+    
+    
 }
