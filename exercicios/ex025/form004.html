@@ -6,10 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <fieldset>
-        <input type="checkbox" id="fut" name="fut"><label for="fut">futebol</label><br>
-        <input type="checkbox" id="bas" name="bas"><label for="bas">basquete</label><br>
-        <input type="checkbox" id="vol" name="vol"><label for="vol">volei</label><br>
-    </fieldset>
+    <h1>Formulario</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" id="mas" name="sexo"> <label for="mas">Masculino</label>
+            <input type="radio" id="fem" name="sexo"> <label for="fem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <input type="checkbox" id="fut" name="fut"><label for="fut">futebol</label><br>
+            <input type="checkbox" id="bas" name="bas"><label for="bas">basquete</label><br>
+            <input type="checkbox" id="vol" name="vol"><label for="vol">volei</label><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
